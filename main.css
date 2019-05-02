@@ -18,3 +18,24 @@ body{
     color:white;
 }
 
+
+@media (max-width: 760px) {
+    .container{
+        width:80%;
+    }
+    .display-4{
+        font-size: 24px;
+    }
+    h3{
+        font-size:16px;
+    }
+    h1{
+        font-size:30px;
+    }
+    .alignment{
+        margin: 2% 0;
+    }
+    .footer{
+        font-size:15px;
+    }
+}
