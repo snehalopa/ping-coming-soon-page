@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js">
   <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+  <script  src="main.js"></script>
 </head>
 <body>
 
@@ -31,12 +32,14 @@
   </div>
 
   <div class="container ">
+    
     <div class="row my-5">
-      <div class="col-md-10 alignment">
-          <input class="form-control py-4 px-5 rounded-pill border border-primary " type="email" placeholder="Your email address">
+      <div class="col-md-10 ">
+        <input class="form-control py-4 px-5 rounded-pill border alignment " type="email" placeholder="Your email address" id="emailid"></br>
+        <label id="label"></label>  
       </div>
-      <div class="col-md-2  alignment">
-          <button class=" button btn-block p-3 rounded-pill btn btn-primary ">Notify Me</button>
+      <div class="col-md-2  ">
+          <button onclick="notifyme()" class=" button btn-block rounded-pill btn btn-primary alignment">Notify Me</button>
       </div>
     </div>
   </div>
@@ -46,9 +49,15 @@
   </div>
 
   <div class="container text-center bluecolour mt-5">
-    <i class="fab fa-facebook-f fa-lg px-4" ></i>
-    <i class="fab fa-twitter fa-lg px-4"></i>  
-    <i class="fab fa-instagram fa-lg px-4"></i>
+      <a href="#">
+        <i class="fab fa-facebook-f fa-lg px-4" ></i>
+      </a>
+      <a href="#">
+        <i class="fab fa-twitter fa-lg px-4"></i>  
+      </a>
+      <a href="#">
+        <i class="fab fa-instagram fa-lg px-4"></i>
+      </a>
   </div>
 
   <div class="container text-center mt-3 gray footer">
